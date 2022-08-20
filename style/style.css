@@ -35,12 +35,11 @@ div button:hover{
     letter-spacing: 2px;
 }
 footer{
-    background-color: black;
-    color: #fff;
+    background-color: #F9F7F7;
     text-align: center;
 }
 footer a{
-    color: #fff;
+    color: #000;
 }
 @media (max-width: 720px) {
     div{
