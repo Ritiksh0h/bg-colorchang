@@ -8,3 +8,9 @@ $("#randomColorBtn").on("click",function(){
 
     $("h3").html(randomColor);
 })
+
+var cpYear = document.getElementById("cp-date");
+var d = new Date();
+var year = d.getFullYear()
+
+cpYear.innerHTML = year;

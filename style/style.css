@@ -33,7 +33,12 @@ div button:hover{
     color: #F9F7F7;
     letter-spacing: 2px;
 }
-
+footer{
+    text-align: center;
+}
+footer a{
+    color: #000;
+}
 @media (max-width: 720px) {
     div{
         margin: 200px 15%;
