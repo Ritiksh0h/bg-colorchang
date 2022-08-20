@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+div{
+    background-color: #F9F7F7;
+    text-align: center;
+    margin: 200px 30%;
+    padding: 4% 5%;
+    border: 1px solid #F9F7F7;
+    border-radius: 5px;
+}
+div h1{
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+div button{
+    padding: 7px 15px;
+    border-radius: 5px;
+    border: 2px solid #112D4E;
+    color: #112D4E;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 5% 0 2%;
+    height: 100%;
+    width: 50%;
+}
+div button:hover{
+    border: 2px solid #112D4E;
+    background-color: #112D4E;
+    color: #F9F7F7;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 720px) {
+    div{
+        margin: 200px 15%;
+    }
+}
