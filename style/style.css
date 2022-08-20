@@ -35,6 +35,7 @@ div button:hover{
     letter-spacing: 2px;
 }
 footer{
+    position: bottom;
     background-color: #F9F7F7;
     text-align: center;
 }
